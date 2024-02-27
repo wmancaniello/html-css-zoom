@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+img {
+    max-width: 100%;
+}
+  
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+
+    /* debug */
+    background-color: black;
+}
+  
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.col {
+    width: calc(100% / 7);
+    padding-right: 5px;
+}
+  
+.card {
+    position: relative;
+}
+  
+.id-chat {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(0, 0, 0, .4);
+}
+  
